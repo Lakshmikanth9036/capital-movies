@@ -1,0 +1,19 @@
+.pagination {
+  margin: 0 0 3rem 0;
+  text-align: center;
+}
+
+.pagination .page__link {
+  padding: 0.6rem 1rem;
+  color: #111111;
+  border: 1px solid #111111;
+  border-radius: 3px;
+  margin: 0 0.5rem;
+}
+
+.pagination .page__link:active,
+.pagination .page__link:hover,
+.pagination .page__link.active {
+  background-color: #111111;
+  color: #fff;
+}

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3rem 0 0 0;
+  font-family: "Roboto", sans-serif;
+  color: #111111
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+form {
+  display: inline;
+}
+
+.mt-3{
+  margin-top: 15px;
+}
+
+.pl-3{
+  padding-left: 26px;
+}
+
+.centered{
+  text-align: center;
+}
+
+.bd-grid {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.btn {
+  display: inline-block;
+  font: inherit;
+  border: 1px solid #111111;
+  color: #111111;
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0.50rem 1.25rem;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #111111;
+  color: white;
+}
+
+.btn:focus {
+  border-color: #111111;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.user-message {
+  margin: auto;
+  width: 90%;
+  border: 1px solid #4771fa;
+  background: #b9c9ff;
+  padding: 0.5rem;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.user-message__error{
+  border-color: red;
+  background: #ffb0b0;
+  color: red;
+}
+
+@media screen and (min-width: 968px) {
+
+  .user-message {
+    width: 25%;
+  }
+  
+  .bd-grid {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}

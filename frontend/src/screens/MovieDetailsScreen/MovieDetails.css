@@ -1,0 +1,174 @@
+.movie__img__con {
+  width: 231px;
+  height: 346px;
+  border: 7px solid #ffd700;
+  border-radius: 5px;
+  position: relative;
+}
+
+.movie_detail__img {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ff{
+    position: absolute;
+    right: 5px;
+    bottom: 290px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
+.movie__detail__container {
+  display: flex;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.movie__details{
+    width: 80%;
+}
+
+.movie__detail {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+}
+
+.movie__info{
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.movie__overview{
+    margin-top: 12px;
+    font-size: 17px;
+    text-align: justify;
+    color: #333;
+    width: 100%;
+}
+
+.fh{
+width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  color: #dc2c29;
+}
+
+.movie__review{
+    margin-left: 15px;
+  display: flex;
+  width: 140px;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.review__count{
+    font-size: 1.1rem;
+    font-weight: 700;   
+}
+
+.movie__imdb {
+  margin-left: 26px;
+  display: flex;
+  width: 180px;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.movie__imdb div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imdb__logo {
+  width: 60px;
+}
+
+.imdb__rating {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.fa-star {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #ffd700;
+}
+
+.movie__prod__detail{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.prod__details{
+ margin-right: 15px;
+}
+
+.prod__name{
+    font-size: 17px;
+    color: #b9b4b4;
+}
+
+.prod__img{
+    width: 80px;
+    height: 50px;
+}
+
+@media screen and (max-width: 767px){
+
+    .movie__detail__container {
+        flex-wrap: wrap;
+      }
+
+      .movie__img__con {
+        width: 100%;
+        height: 512px;
+      }
+
+      .ff{
+        right: 10px;
+        bottom: 450px;
+    }
+      
+      .movie__details{
+          margin-top: 15px;
+        width: 100%;
+    }
+    .movie__detail, .movie__genres, .movie__overview{
+        padding-left: 0;
+    }
+
+    .movie__imdb, .movie__review{
+        margin-left: 0;
+    }
+
+    .movie__prod__detail{
+        justify-content: space-between;
+    }
+
+    .prod__details{
+        margin-bottom: 15px;
+       }
+
+}

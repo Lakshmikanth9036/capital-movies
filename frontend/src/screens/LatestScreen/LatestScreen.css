@@ -1,0 +1,11 @@
+.headline{
+    margin-top: 70px;
+    margin-left: 10%;
+}
+
+@media screen and (min-width: 968px) {
+    .headline{
+        margin-top: 90px;
+        margin-left: 6%;
+    }
+}
